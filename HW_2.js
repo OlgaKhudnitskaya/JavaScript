@@ -21,3 +21,14 @@ for (let a=0; a<5; a++){
     console.log(str);
     str = str + ":)";
 }
+
+// 2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик), а также количество строк для вывода 
+// e.g. function printSmile(stroka, numberOfRows)
+function printSmile(str, numberOfRows) {
+for (let a=0; a<5; a++){
+    console.log(str);
+    str = str + ":)";
+}
+}
+printSmile(":)", 5)
+
